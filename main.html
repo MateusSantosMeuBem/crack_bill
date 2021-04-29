@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet">
+    <script type="text/javascript" src="functions.js"></script>
+    <title>crack_bill</title>
+  </head>
+  <body onload="fixeDecimal(0)">
+    <section class="window">
+      <div class="header">
+        Valor da Conta: R$
+        <input type="number" onclick="this.select()" oninput="createCalcBody()" onkeyup="fixeDecimal(4)"  min="0" id="tot_value" class="input_value_header" value="0">
+        Qtd de Pessoas:
+        <input type="number" onclick="this.select()" oninput="createCalcBody()" min="0" id="tot_people" class="input_value_header center" value="0">
+    </div>
+    <div id="calc_body" class="calc_body">
+
+    </div>
+    </section>
+
+  </body>
+</html>

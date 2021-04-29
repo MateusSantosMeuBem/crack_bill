@@ -1,0 +1,126 @@
+*{
+  font-family: ROBOTO;
+  font-weight: bold;
+  color: rgb(170, 170, 170);
+  font-size: 20px;
+}
+
+body{
+  background-color: rgb(38, 38, 38);
+  font-family: sans-serif;
+}
+
+.window{
+  width: 520px;
+  height: max-content;
+  display: block;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #3e3e3e;
+  padding-bottom: 40px;
+}
+
+.header{
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+input[type=number] {
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.input_name{
+  text-align: center;
+  width: 100%;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, .0);
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.input_value{
+  text-align: left;
+  width: 75px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, .0);
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.slider_box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.input_value_slider{
+  position: relative;
+  text-align: left;
+  border-radius: 6px;
+  width: 75px;
+  background-color: rgba(0, 0, 0, .0);
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.input_value_header{
+  position: relative;
+  text-align: left;
+  width: 75px;
+  background-color: rgba(0, 0, 0, .0);
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  border-bottom: 2px solid rgb(50, 50, 50);
+  outline: 0;
+}
+
+.slider{
+  position: relative;
+  -webkit-appearance: none;
+  width: 80%;
+  height: 7px;
+  border-radius: 10px;
+  background-color: rgb(50, 50, 50);
+  margin-right: 15px;
+}
+
+.slider:hover{
+  opacity: 0.8;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: rgb(38, 38, 38);
+}
+
+.slider::-moz-range-thumb {
+  width: 17px;
+  height: 17px;
+  background: #4CAF50;
+  cursor: pointer;
+  background-color: rgb(38, 38, 38);
+}
+
+.center{
+  text-align: center;
+}
